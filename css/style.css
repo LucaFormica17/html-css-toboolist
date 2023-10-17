@@ -3,7 +3,11 @@
     margin: o;
     box-sizing: border-box;
 }
+body{
+    background-color: grey;
+}
 
+/*header*/
 header{
     background-color: white;
 }
@@ -15,4 +19,18 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     vertical-align: top;
+}
+/* main content*/
+
+#add-task{
+    background-color: blue;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+#add-section{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 7px;
 }
