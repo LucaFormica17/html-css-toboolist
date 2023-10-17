@@ -71,7 +71,6 @@ header{
     padding-top: 20px;
     padding-left: 40px;
     list-style-type: none;
-    
 }
 
 .sub-list{
@@ -92,4 +91,40 @@ header{
     color: green;
     border: 1px solid green;
     border-radius: 50%;
+}
+
+.editorial{
+    background-color: rgb(17, 160, 255);
+    padding: 2px;
+    border-radius: 15%;
+}
+
+.q1{
+    background-color: rgba(209, 18, 209, 0.651);
+    padding: 2px;
+    border-radius: 15%;
+}
+
+.recuitring{
+    background-color: rgb(84, 210, 0);
+    padding: 2px;
+    border-radius: 15%;
+}
+
+.mobile{
+    background-color: orange;
+    padding: 2px;
+    border-radius: 15%;
+}
+
+.website{
+    background-color: violet;
+    padding: 2px;
+    border-radius: 15%;
+}
+
+.sales{
+    background-color: rgb(24, 217, 2);
+    padding: 2px;
+    border-radius: 15%;
 }
