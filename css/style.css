@@ -1,10 +1,10 @@
 *{
     padding: 0;
-    margin: o;
+    margin: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: grey;
+    background-color: rgb(202, 202, 202);
 }
 
 /*header*/
@@ -21,16 +21,52 @@ header{
     vertical-align: top;
 }
 /* main content*/
+    /* button section */
+
+.main{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#button{
+    margin-top: 40px;
+    padding: 10px ;
+    background-color: white;
+}
 
 #add-task{
-    background-color: blue;
+    background-color: rgb(7, 123, 255);
     border-radius: 6px;
-    padding: 7px;
+    padding: 7px 10px;
+    margin-left: 20px;
+    border: 0;
+}
+
+#task-text{
+    color: white;
 }
 
 #add-section{
     background-color: white;
-    border: 1px solid grey;
+    border: 1px solid rgb(202, 202, 202);
     border-radius: 6px;
-    padding: 7px;
+    padding: 7px 10px;
+}
+
+#section-text{
+    color: rgb(202, 202, 202);
+}
+
+    /* todolist section */
+
+#todolist{
+    margin-top: 1px;
+    background-color: white;
+}
+
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 40px;
+    list-style-type: circle;
 }

@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <!-- header with logo and text -->
         <header>
              <div>
                 <img id="head-logo" src="./img/logo copia.png" alt="">
@@ -14,12 +15,22 @@
              </div>       
         </header>
         <main>
-            
+            <!-- main divided in 2 div -->
+            <div class="main">
+                <!-- button section -->
                 <div id="button">
-                    <button id="add-task">Add Task</button>
-                    <button id="add-section">Add Section</button>
+                    <button id="add-task"><span id="task-text">Add Task</span></button>
+                    <button id="add-section"><span id="section-text">Add Section</span></button>
                 </div>
-            
+                <!-- todolist section -->
+                <div id="todolist">
+                    <ul>
+                        <li class="main-point"><strong>New Task</strong></li>
+                        <li class="main-point"><strong>Today</strong></li>
+                        <li class="main-point"><strong>Upcoming</strong></li>
+                    </ul>
+                </div>
+            </div>
         </main>
     </body>
 </html>
